@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        $(document).ready(function () {
+            $("#hd .menu").on('click', function () {
+                $('.menuPage').css('margin-right', '0');
+            });
+            $('#btnBox .close').on('click', function () {
+                $('.menuPage').css('margin-right', '-100%');
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="layout.css" type="text/css">
+</head>
+<body>
+    <header id="hd">
+        <a href="index.html" class="logo">
+            <img src="./img/logo.svg" alt="로고" class="logoImg">
+        </a>
+        <img src="./img/menu.svg" alt="메뉴" class="menu">
+    </header>
+    <div id="banner">
+        <img src="./img/banner1.jpg" alt="배너">
+        <img src="./img/banner1.jpg" alt="배너">
+        <img src="./img/banner1.jpg" alt="배너">
+    </div>
+    <!--
+    <div class="menuPage">
+        <div class="bannerBox">
+            <img src="" alt="메뉴배너1">
+            <img src="" alt="메뉴배너2">
+        </div>
+        <div class="menuList">
+            <img src="./img/logo.svg" alt="로고">
+            <img src="./img/close.svg" alt="메뉴닫기">
+            <ul>
+                <li><a href="">브랜드스토리</a></li>
+                <li><a href="">메뉴</a></li>
+                <li><a href="">이벤트</a></li>
+                <li><a href="">매장찾기</a></li>
+                <li><a href="">가맹모집</a></li>
+                <li><a href="">채용안내</a></li>
+                <li><a href="">고객의 소리</a></li>
+            </ul>
+        </div>
+    </div>
+    -->
+    <div id="btnBox">
+        <ul>
+            <li><a href="sub1.html"></a></li>
+            <li><a href="sub2.html"></a></li>
+            <li><a href="sub3.html"></a></li>
+            <li><a href="sub4.html"></a></li>
+            <li><a href="sub5.html"></a></li>
+            <li><a href="sub6.html"></a></li>
+            <li><a href="tel:02-587-0955"></a></li>
+            <li><a href="mailto:holiPretzel@gmail.com"></a></li>
+            <li><a href="https://open.kakao.com/o/sU2nS0E"></a></li>
+        </ul>
+    </div>
+    <footer id="ft">
+        <p class="copyright">COPYRIGHT (C) 2018 HOLI PRETZEL KOREA, ALL RIGHTS RESERVED.</p>
+    </footer>
+</body>
+</html>
